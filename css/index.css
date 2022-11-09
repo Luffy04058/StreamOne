@@ -1,0 +1,12 @@
+html{
+    overflow-y: hidden;
+}
+
+.image1{
+    width: 73%;
+    position: relative;
+    top: 40px;
+    border-radius: 1rem;
+    z-index: 0;
+}
+

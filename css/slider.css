@@ -1,0 +1,113 @@
+html{
+    --couleur-texte:white;
+    --couleur-text1:#fa5353;
+    --couleur-principale:#2b2a33;
+    --couleur-secondaire:#42414d;
+}
+
+
+/* scroll snap */
+.containe{
+    background-color: var(--couleur-principale);
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    transition: 0.5s ease-in-out;
+    scrollbar-width:none;
+    z-index: 100;
+}
+
+.v-slider-bloc{
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: center;
+}
+
+/* cercle  */
+
+.cercle{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 5%;
+    top:490px;
+   
+}
+
+.bx {
+    color: var(--couleur-texte);
+}
+
+
+#home:hover #i{
+    color: var(--couleur-text1);
+    background-color:var(--couleur-text1);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+
+#partie1:hover #i1{
+    color: var(--couleur-text1);
+    background-color: var(--couleur-text1);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#partie2:hover #i2{
+    color: var(--couleur-text1);
+    background-color: var(--couleur-text1);
+    border-radius: 50%;
+    transition: 0.5s;
+    transition: 0.5s;
+}
+
+#partie3:hover #i3{
+    color: var(--couleur-text1);
+    background-color: var(--couleur-text1);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#partie4:hover #i4{
+    color: var(--couleur-text1);
+    background-color: var(--couleur-text1);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#i{
+    position: fixed;
+    right: 4.7%;
+    top:620px;
+}
+
+#i1{
+    position: fixed;
+    right: 4.7%;
+    top:670px;
+}
+
+
+#i2{
+    position: fixed;
+    right: 4.7%;
+    top:720px;
+}
+
+#i3{
+    position: fixed;
+    right: 4.7%;
+    top:770px;
+}
+
+#i4{
+    position: fixed;
+    right: 4.7%;
+    top:820px;
+}

@@ -1,0 +1,52 @@
+/* Police écriture */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@800&family=Work+Sans:wght@800&display=swap');
+
+
+
+html{
+    --couleur-texte:white;
+    --couleur-text1:#fa5353;
+    --couleur-principale:#2b2a33;
+   
+}
+
+.container{
+    position: relative;
+}
+
+h2{
+    font-family: "Poppins";
+    color: var(--couleur-texte);
+    font-weight: 900;
+}
+
+/* scroll */
+.scroll-container1{
+    overflow: auto;
+    white-space: nowrap;
+    background: transparent;
+    border-radius:16px;
+    width:1440px;
+    height: 1250px;
+    padding: 0;
+    position:relative;
+    top:3%;
+    scrollbar-width: none;
+ }
+
+ /* Scroll taille image et grid image */
+.gridscroll{
+    display:inline-block;
+    display: flex;
+    justify-content: center;
+ }
+
+.card{
+    transition: 0.8s all;
+ }
+
+ .card:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+

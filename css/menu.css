@@ -1,0 +1,220 @@
+/* Police écriture */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@800&family=Work+Sans:wght@800&display=swap');
+
+
+html{
+    --couleur-principal:rgb(43, 42, 51);
+    --couleur-secondaire:#42414d;
+    --couleur-texte:white;
+    --couleur-principale: #1b182b;
+    --couleur-text1:#fa5353;
+    --couleur-text2:white;
+    --couleur-logo-fond:#21232b;
+    --couleur-baground_menu:rgba(0, 0,14, 0.9);
+    --couleur-shadow-black:black;
+}
+
+html{
+
+    position: relative;
+    top: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    background-color:var(--couleur-principal); 
+    height: 100px;
+    
+}
+
+
+
+li{
+    color: var(--couleur-texte);
+    list-style-type: none;
+    font-size: 1vw;
+}
+
+
+/* logo */
+.logo h1{
+    color: var(--couleur-texte);
+    font-weight: 700;
+    position: fixed;
+    top: 45px;
+    left: 7%;
+    z-index: 210;
+}
+
+.logo span{
+    color: var(--couleur-text1);
+    font-weight: 700;
+}
+
+#game {
+    position: relative;
+    left: 10px;
+    top: 3px;
+}
+
+/* menu-icon */
+.icon{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-principale{
+    background-color: var(--couleur-secondaire);
+    position: relative;
+    left: 40.8vw;
+    top: -6.2vh;
+    z-index: 210;
+    display: flex;
+    float: left;
+    margin: 10px;
+    border-radius: 50%;
+    padding: 16px;
+}
+
+
+/* menu icon */
+.menu-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5px;
+    height: 72px;
+    width: 72px;
+    background:var(--couleur-secondaire);
+    border-radius: 50%;
+    cursor: pointer;
+    z-index:210 ;
+    transition: 0.3s;
+    position: relative;
+    top: -11.8vh;
+    left: 95vw;
+     }
+
+.menu-icon div{
+    display: block;
+    background: var(--couleur-text2);
+    height: 3px;
+    margin: 2px;
+    width: 40px;
+    transition: 0.3s;
+    position:relative;
+}
+
+.nav-back{
+    background-color:var(--couleur-principal);
+    width: 100vw;
+    height: 110px;
+    z-index: 150;
+}
+/* menu */
+
+.menu{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: var(--couleur-baground_menu);
+    z-index: 106;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+    clip-path: circle(0% at 100% 0%);
+}
+
+.menu.active{
+    clip-path: circle(144% at 100% 0%);
+}
+
+.menu img{
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    height: 200px;
+    left: 40px;
+}
+
+.move .line1{
+    transform: rotate(-45deg) translate(-8px, 9px) ;
+}
+
+.move .line2{
+    opacity:0 ; 
+}
+
+.move .line3{
+    transform: rotate(45deg) translate(-8px, -9px) ;
+}
+
+/*---------------------------------------- icon -----------------------------------------------*/
+
+.message{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: var(--couleur-baground_menu);
+    z-index: 106;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+    clip-path: circle(0% at 100% 0%);
+}
+
+.message.active{
+    clip-path: circle(144% at 100% 0%);
+    transition: 0.8s;
+}
+
+.message1{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: var(--couleur-baground_menu);
+    z-index: 106;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+    clip-path: circle(0% at 100% 0%);
+}
+
+.message1.active{
+    clip-path: circle(144% at 100% 0%);
+    transition: 0.8s;
+}
+
+.telechargement{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: var(--couleur-baground_menu);
+    z-index: 106;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+    clip-path: circle(0% at 100% 0%);
+}
+
+.telechargement.active{
+    clip-path: circle(144% at 100% 0%);
+    transition: 0.8s;
+}
+

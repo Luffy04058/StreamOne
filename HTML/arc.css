@@ -1,0 +1,264 @@
+@media screen and (max-width:2560px) {
+    video{
+        position:absolute ;
+        top:1250px;
+        left:835px;
+        width:1000px ;
+        border-radius: 15px;
+      }
+
+     
+
+
+}
+
+@media screen and (max-width:1920px) {
+
+    video{
+        position:absolute ;
+        top:1250px;
+        left:480px;
+        width:1000px ;
+        border-radius: 15px;
+      }
+
+      .scroll-container {
+        width: 500px;
+        height: 380px;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        position: absolute;
+        top: 1820px;
+        left: 38%;
+        vertical-align: baseline;
+      }
+
+      h5{
+        position: absolute;
+        left: 46.5%;
+        top: 1200px;
+      }
+      
+
+}
+
+@media screen and (max-width:1440px) {
+
+         /* Home */
+
+        .home img {
+            width: 1400px;
+            height: auto;
+            border-radius: 1.4rem;
+            z-index: -1;
+            position: relative;
+            top: 10px;
+            left: 15.5%;
+        }
+        video{
+            position:absolute ;
+            top:1250px;
+            left:230px;
+            width:1000px ;
+            border-radius: 15px;
+          }
+    
+          .scroll-container {
+            width: 500px;
+            height: 380px;
+            overflow-y: scroll;
+            scroll-behavior: smooth;
+            position: absolute;
+            top: 1820px;
+            left: 33%;
+            vertical-align: baseline;
+          }
+    
+          h5{
+            position: absolute;
+            left: 45%;
+            top: 1200px;
+          }
+
+          .text h1 {
+            font-size: 55px;
+            position: absolute;
+            left: 85%;
+            top: 50%;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: white;
+            white-space: nowrap;
+          }
+          
+          .text h1 span {
+            font-size: 50;
+            position: absolute;
+            color: white;
+          }
+          
+          .btn button {
+            position: absolute;
+            left: 85%;
+            top: 80%;
+            background: #fa5353;
+            border-radius: 8px;
+            border: none;
+            padding: 10px;
+            width: 250px;
+            height: 80px;
+            color: white;
+            font-weight: 900;
+            font-size: 1rem;
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%, 0% 50%);
+          }
+
+}
+
+@media screen and (max-width:1024px) {
+
+    /* Home */
+
+   .home img {
+       width: 980px;
+       height: auto;
+       border-radius: 1.4rem;
+       z-index: -1;
+       position: relative;
+       top: 10px;
+       left: -1.5%;
+   }
+   video{
+       position:absolute ;
+       top:900px;
+       left:165px;
+       width:700px ;
+       border-radius: 15px;
+     }
+
+     .scroll-container {
+       width: 500px;
+       height: 380px;
+       overflow-y: scroll;
+       scroll-behavior: smooth;
+       position: absolute;
+       top: 1300px;
+       left: 26%;
+       vertical-align: baseline;
+     }
+
+     h5{
+       position: absolute;
+       left: 43%;
+       top: 850px;
+     }
+
+     .text h1 {
+       font-size: 40px;
+       position: absolute;
+       left: 75%;
+       top: 50%;
+       font-weight: 400;
+       text-transform: uppercase;
+       color: white;
+       white-space: nowrap;
+     }
+     
+     .text h1 span {
+       font-size: 50;
+       position: absolute;
+       color: white;
+     }
+     
+     .btn button {
+       position: absolute;
+       left: 75%;
+       top: 80%;
+       background: #fa5353;
+       border-radius: 8px;
+       border: none;
+       padding: 10px;
+       width: 200px;
+       height: 60px;
+       color: white;
+       font-weight: 900;
+       font-size: 1rem;
+       clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%, 0% 50%);
+     }
+
+}
+
+@media screen and (max-width:768px) {
+
+    /* Home */
+
+   .home img {
+       width: 730px;
+       height: auto;
+       border-radius: 1.4rem;
+       z-index: -1;
+       position: relative;
+       top: 10px;
+       left: -1.5%;
+   }
+   video{
+       position:absolute ;
+       top:650px;
+       left:110px;
+       width:550px ;
+       border-radius: 15px;
+     }
+
+     .scroll-container {
+       width: 500px;
+       height: 380px;
+       overflow-y: scroll;
+       scroll-behavior: smooth;
+       position: absolute;
+       top: 980px;
+       left: 17%;
+       vertical-align: baseline;
+     }
+
+     h5{
+       position: absolute;
+       left: 43%;
+       top: 600px;
+     }
+
+     .text h1 {
+       font-size: 30px;
+       position: absolute;
+       left: 75%;
+       top: 50%;
+       font-weight: 400;
+       text-transform: uppercase;
+       color: white;
+       white-space: nowrap;
+     }
+     
+     .text h1 span {
+       font-size: 50;
+       position: absolute;
+       color: white;
+     }
+     
+     .btn button {
+       position: absolute;
+       left: 75%;
+       top: 80%;
+       background: #fa5353;
+       border-radius: 8px;
+       border: none;
+       padding: 10px;
+       width: 140px;
+       height: 40px;
+       color: white;
+       font-weight: 900;
+       font-size: 1rem;
+       clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%, 0% 50%);
+     }
+
+}
+
+ 
